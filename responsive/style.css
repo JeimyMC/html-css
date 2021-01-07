@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body > header {
+  background: no-repeat center/100% url("./img/forest.jpg");
+  height: 15rem;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.bombilla {
+  height: 100%;
+}
+
+header > a {
+  color: white;
+  text-decoration: none;
+  background: rgba(128, 128, 128, 0.575);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+header > h1,
+header > p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+header > p {
+  color: rgba(255, 255, 255, 0.534);
+}
+
+.introduction {
+  background-color: rgb(233 119 112);
+  text-align: center;
+  color: white;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.introduction > h2 {
+  font-size: 16px;
+  position: absolute;
+  top: -2rem;
+  background-color: rgb(233 119 112);
+  padding: 20px;
+  align-self: center;
+}
+
+.introduction > p {
+  padding-top: 20px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.616);
+  margin-bottom: 40px;
+}
+
+.introduction > aside {
+  border: 1px solid rgba(255, 255, 255, 0.616);
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.introduction > p > strong,
+.introduction > p > u {
+  color: white;
+}
+
+.button {
+  background-color: rgb(70, 67, 67);
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+main > h2 {
+  position: absolute;
+  background-color: white;
+  font-size: 16px;
+  padding: 20px 50px;
+  top: -4rem;
+  align-self: center;
+}
+
+main > img {
+  width: 100%;
+  height: 6rem;
+}
+
+main li {
+  margin: 20px;
+}
+
+ul {
+  padding: 0px;
+}
+
+main {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main > p {
+  margin-top: 20px;
+  text-align: center;
+  color: gray;
+}
+
+li > p {
+  margin-left: 50px;
+  color: rgba(128, 128, 128, 0.726);
+}
+
+li > header {
+  display: flex;
+  flex-direction: row;
+}
+
+li > header > h3 {
+  color: rgb(233 119 112);
+  margin-left: 30px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav > a {
+  text-decoration: none;
+  align-self: center;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.button1 {
+  background-color: rgb(233 119 112);
+  color: white;
+}
+
+.button2 {
+  border: 1px solid rgba(128, 128, 128, 0.356);
+  margin: 20px 0px 30px;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+.container > h2 {
+  position: absolute;
+  background-color: rgb(168, 168, 168);
+  top: -2rem;
+  font-size: 16px;
+  padding: 20px;
+  align-self: center;
+}
+
+.container {
+  background-color: rgb(197, 197, 197);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+article > img {
+  width: 100%;
+  border: 5px solid white;
+}
+
+article:first-of-type {
+  margin-top: 50px;
+}
+
+article {
+  margin: 20px;
+  text-align: center;
+}
+
+article > h3 {
+  color: rgb(233 119 112);
+  margin: 10px 0px 10px;
+}
+
+article > p {
+  color: rgba(8, 8, 8, 0.5);
+  margin-bottom: 30px;
+}
+
+.button3 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(233 119 112);
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+
+article:last-child {
+  margin-bottom: 70px;
+}
+
+.information {
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.information > h2 {
+  color: white;
+  position: absolute;
+  top: -1.5rem;
+  font-size: 16px;
+  background-color: rgb(46, 44, 44);
+  padding: 20px;
+  align-self: center;
+}
+
+.information > p:first-of-type {
+  margin-top: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.information > p {
+  text-align: center;
+  margin: 0px 20px 20px;
+  color: rgba(255, 255, 255, 0.493);
+}
+
+fieldset {
+  border: none;
+}
+
+.information > section:first-of-type {
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 80%;
+  background-color: rgba(202, 202, 202, 0.897);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.information > nav > .button2 {
+  color: white;
+}
+
+.redes > ul > li > h3 {
+  color: rgb(233 119 112);
+  margin: 20px 0px 20px;
+}
+
+.redes > ul > li > p {
+  color: rgb(173, 173, 173);
+  margin: 0px 0px 10px;
+}
+
+.redes > ul > li a {
+  color: white;
+  margin-bottom: 100px;
+}
+
+.redes > ul {
+  margin: 50px;
+}
+
+footer {
+  background-color: rgb(46, 44, 44);
+  text-align: center;
+  padding: 20px;
+}
+
+footer > section {
+  border: 1px solid rgba(255, 255, 255, 0.294);
+  padding: 20px;
+  color: rgb(173, 173, 173);
+}
+
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .container > h2 {
+    right: 38rem;
+  }
+  .container > article {
+    margin-top: 40px;
+  }
+  .bombilla {
+    width: 60%;
+    margin: 0px 350px;
+  }
+
+  .button,
+  aside,
+  ul,
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  input,
+  textarea {
+    height: 60px;
+  }
+}

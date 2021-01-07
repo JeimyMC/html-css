@@ -1,0 +1,90 @@
+body {
+  background: no-repeat center/100%
+    url("./img/img_las_personas_despistadas_son_mas_inteligentes_descubre_por_que_45219_600.jpg");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 200px 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.685);
+}
+
+.hr {
+  color: aquamarine;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.imagen-cabecera {
+  width: 50%;
+}
+
+.imagen-cabecera > img {
+  width: 100%;
+  height: 100%;
+}
+
+.encabezado {
+  width: 50%;
+
+  padding: 50px 60px 60px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+main {
+  background: no-repeat center/100% url("./img/4-min-620x350.jpg");
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.contacto {
+  background: rgba(255, 255, 255, 0.527);
+  margin: 100px 10px 50px 100px;
+  width: 30%;
+  padding: 50px;
+  font-size: 18px;
+}
+
+.contacto > nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.527);
+  width: 50%;
+  margin: 100px 100px 50px 20px;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+button {
+  width: 5vw;
+  background-color: rgb(37, 37, 109);
+  color: white;
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.527);
+  height: 2rem;
+}
